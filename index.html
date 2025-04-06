@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moje Linki</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 400px;
+      width: 100%;
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      object-fit: cover;
+      border: 3px solid #000;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin: 10px 0 5px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 25px;
+    }
+
+    .link-button {
+      display: block;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 12px;
+      transition: background 0.3s;
+    }
+
+    .link-button:hover {
+      background: #333;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://via.placeholder.com/100" alt="Avatar" class="avatar" />
+    <h1>Twoje Imię</h1>
+    <p>Krótki opis o sobie – np. "Student, pasjonat IT i muzyki"</p>
+
+    <a href="https://example.com" class="link-button">🌐 Moja Strona</a>
+    <a href="https://instagram.com" class="link-button">📸 Instagram</a>
+    <a href="https://github.com" class="link-button">💻 GitHub</a>
+    <a href="mailto:twoj@email.com" class="link-button">✉️ Napisz do mnie</a>
+
+    <footer>
+      &copy; 2025 Twoje Imię
+    </footer>
+  </div>
+</body>
+</html>
